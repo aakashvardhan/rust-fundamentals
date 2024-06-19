@@ -7,7 +7,7 @@ fn main() {
     // continue looping until x > 5
     loop {
         println!("x is {}", x);
-        x += 1;
+        x += 1; // Shadowing x
         if x > 5 {
             break;
         }
